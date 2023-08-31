@@ -1,0 +1,58 @@
+body{
+    margin: 0 auto;
+}
+
+header{
+    background-color: #0055b7;
+    height: 120px;
+    }
+
+    .container{ 
+        margin: 0 auto;
+        width: 1140px;
+    }
+
+    .row{
+        display: flex;
+    }
+
+    .logo{
+        width: 15%;
+        height: 120px;
+        background-color: red;
+    }
+
+    .menu-principal{
+        width: 60%;
+        height: 120px;
+        background-color: green;
+    }
+
+    .logo-inst{
+        width: 25%;
+        height: 120px;  
+        background-color: yellow;
+    }
+    
+    .logo-principal{
+        margin-top: 24px;
+        margin-left: 14px;
+    }
+    .imagen-acreditacion{
+        margin-top: 18px;
+        margin-left: 25px;
+    }
+
+    .menu-nav{
+        float: right;
+    }
+
+    .menu-nav > ul{
+        list-style-type: none;
+        overflow: hidden;
+    }
+
+    .menu-nav > ul > li{
+        float: left;
+    }
+    
