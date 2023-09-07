@@ -1,58 +1,88 @@
 body{
     margin: 0 auto;
+
 }
 
 header{
     background-color: #0055b7;
     height: 120px;
-    }
+}
 
-    .container{ 
-        margin: 0 auto;
-        width: 1140px;
-    }
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+.row{
+    display: flex;
+}
 
-    .row{
-        display: flex;
-    }
+.logo-principal{
+    width: 15%;
+    height: 40px;
+    background-color: #0055b7;
+    padding-top: 30px;
+}
+.logo > img {
+    margin-top: 25px;
+}
+.menu-principal{
+    width: 70%;
+    height: 50px;
+    background-color: #0055b7;
+}
 
-    .logo{
-        width: 15%;
-        height: 120px;
-        background-color: red;
-    }
+.logo-inst{
+    width: 25%;
+    height: 120px;
+    background-color: #0055b7;
+    padding-left: 30px;
+}
+.logo-inst > img{
+    margin-top: 15px;
+}
 
-    .menu-principal{
-        width: 60%;
-        height: 120px;
-        background-color: green;
-    }
+.menu-nav{
+    float: right;
+    font-family: 'roboto', sans-serif;
+}
+.menu-nav > ul{
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 25px;
+}
+.menu-nav > ul > li{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    padding-top: 15px;
+    padding-left: 15px;
+    line-height: 20px;
+    float: left;
+}
+.menu-nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 90;
+    line-height: 20px;
+    float: left;
+}
 
-    .logo-inst{
-        width: 25%;
-        height: 120px;  
-        background-color: yellow;
-    }
-    
-    .logo-principal{
-        margin-top: 24px;
-        margin-left: 14px;
-    }
-    .imagen-acreditacion{
-        margin-top: 18px;
-        margin-left: 25px;
-    }
+.menu-nav > ul > li > a:hover {
+    text-decoration: none;
+    color: gray;
+    font-weight: 100;
+    line-height: 20px;
+    float: left;
+}
 
-    .menu-nav{
-        float: right;
-    }
-
-    .menu-nav > ul{
-        list-style-type: none;
-        overflow: hidden;
-    }
-
-    .menu-nav > ul > li{
-        float: left;
-    }
-    
+.linea {
+    -ms-transform: translate(0px, 37%);
+    transform: translate(0px, 37%);
+    width: 113px;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 1px 0px 1px;
+    padding: 0px 15px 15px;
+}
